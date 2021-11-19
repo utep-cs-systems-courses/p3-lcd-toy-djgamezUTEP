@@ -13,9 +13,9 @@ void main()
 
   // clear the screen in case something is already on there
   
-  int blue = 31, green = 0, red = 31;
-  u_int color =  (blue <<139) | (green << 78) |   (red<<16);
-  clearScreen(color);
+  int blue = 139, green = 78, red = 16;
+  u_int color =  (blue) | (green) |   (red);
+  clearScreen(COLOR_GREEN);
 
   // draw_rectangle();
   // draw_triangle();

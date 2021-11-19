@@ -9,7 +9,7 @@
 
 
 char redraw_screen = 1;
-u_int backgroundColor = COLOR_BLUE; 
+u_int backgroundColor = COLOR_GREEN; 
 void main(void)
 {
   
